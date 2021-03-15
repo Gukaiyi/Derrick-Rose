@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <style></style>
     <title>个人简介</title>
     <style>
@@ -33,15 +33,23 @@ table {
   border-spacing: 0;
 }
 img{
-  width: 720px; 
+  width: 100%; 
   max-height: 100%;
-  float:left;
 }
     </style>
 </head>
 <body>
+<nav>
+  <ol>
+    <li><a href="#d-rose">个人简介</a></li>
+    <li><a href="#introduction">个人资料</a></li>
+    <li><a href="#histroy">生涯历史</a></li>
+    <li><a href="#achieve">主要成就</a></li>
+    <li><a href="#picture">生平照片</a></li>
+  </ol>
+</nav>
 <div>
-<h1>德里克-罗斯</h1>
+<h1 id="d-rose">德里克-罗斯</h1>
 <p> 他是谁？
     风城之子，后乔丹公牛图腾，史上最年轻MVP。<br>
     曾经的平头，梳起了脏辫。<br>
@@ -59,7 +67,7 @@ img{
 </p>
 </div>
 <hr>
-<div><h2>
+<div><h2 id="introduction">
   个人资料
 </h2>
 <table>
@@ -71,7 +79,7 @@ img{
   <tr><td>司职：控球后卫</td></tr>
 </table></div>
 <hr>
-<h2>生涯历史</h2>
+<h2 id="histroy">生涯历史</h2>
 
 <ul>
   <li>2008–2016	 芝加哥公牛</li>
@@ -82,7 +90,7 @@ img{
   <li>2021–至今	 纽约尼克斯</li>
 </ul>
 <hr>
-<h2>主要成就</h2>
+<h2 id="achieve">主要成就</h2>
 <ol>
   <li>NBA最有价值球员 (2011)</li>
   <li>NBA年度最佳新秀 (2009)</li>
@@ -93,11 +101,11 @@ img{
   <li>世界杯篮球赛冠军 (2014)</li>
 </ol>
 <hr>
-<h2>生平照片</h2>
+<h2 id="picture">生平照片</h2>
 <div>
-<img src="./image/rose1.jpg" alt="第一张图片">
-<img src="./image/rose2.jpg" alt="第二张图片">
-<img src="./image/rose3.jpg" alt="第二张图片">    
+<a href="./image/rose1.jpg" target="_blank"><img src="./image/rose1.jpg" alt="第一张图片"></a>
+<a href="./image/rose2.jpg" target="_blank"><img src="./image/rose2.jpg" alt="第二张图片"></a>
+<a href="./image/rose3.jpg" target="_blank"><img src="./image/rose3.jpg" alt="第二张图片"> </a>   
 </div>
 </body>
 </html>
